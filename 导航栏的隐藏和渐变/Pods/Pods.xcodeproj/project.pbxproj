@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D9BE55203ACE9C9DEDBADDE4E774F7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		51169FC775C7CBDE9A66E6F91CF9855B /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D4E0DB54643EE630C3C9546C2378B /* UINavigationController+FDFullscreenPopGesture.m */; };
+		52FC2BCDB406986B6308564D4DBD1202 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B660B40895AE1E29869B2F9F814B52 /* WRNavigationBar.m */; };
+		7B7EC602BED25C6B8DE9CFC473DDE2B8 /* WRCustomNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA512694288F232A73F7EDCFAA59AE3 /* WRCustomNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		818C0DFDAD93EE5C930F11543A2EDAEE /* WRNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B448EA30C5929CC40E9AE877C0DF96 /* WRNavigationBar-dummy.m */; };
+		C3FB4F117C9CE2928CE6FB66BAF784D9 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3F5F6AE5A855A2DA0767B11FD6E84C /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C69F0E89334A6B4E3AD38DD41FA37D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CFA2F5C9A1FF62120828492C2FB616B5 /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2178DB025421E69192193AAAB551EA /* FDFullscreenPopGesture-dummy.m */; };
+		D0D09B4CC4A105D9F2B42723FA16660D /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD586B8E2C3ECF594C98E7706CA35F6 /* WRCustomNavigationBar.m */; };
+		E337FED42EC8030356730BF1A3EC6767 /* WRNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D877FF08A4E75CB2498C5133B2A924 /* WRNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF0C178DFD1B19A7EBFB0D9AB0082035 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FBC2DE74A0DE52C8A7C1B753DFB24693 /* Pods-pop手势返回-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B17CA101301019AD4D5BE178CF01488C /* Pods-pop手势返回-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24B84E80B1AAD07AB1C0FA2B06FD027D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79B7C6E8E872BC45A21CBEA4085D7A19;
+			remoteInfo = WRNavigationBar;
+		};
+		D493F324140B255FF475F1E6475151AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE366E1E6962F82E6AEC8AE66FA66CBF;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05655D7258AE4571BBF5DBA26E83ABED /* WRNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WRNavigationBar-prefix.pch"; sourceTree = "<group>"; };
+		0F8247E59E1022D4C4CBC11B7AEAFE54 /* Pods-pop手势返回-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pop手势返回-frameworks.sh"; sourceTree = "<group>"; };
+		1CF04104C131082A05FAE3ECFBF09619 /* Pods-pop手势返回-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pop手势返回-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F3F5F6AE5A855A2DA0767B11FD6E84C /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		30B660B40895AE1E29869B2F9F814B52 /* WRNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRNavigationBar.m; path = WRNavigationBar/WRNavigationBar.m; sourceTree = "<group>"; };
+		37A9EB7E8BA67FECC369F5BEBB40BE7E /* Pods-pop手势返回.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pop手势返回.release.xcconfig"; sourceTree = "<group>"; };
+		406D4E0DB54643EE630C3C9546C2378B /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		515D0A2493DCD776F1A36216FFE9FF61 /* Pods-pop手势返回-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pop手势返回-acknowledgements.plist"; sourceTree = "<group>"; };
+		56E70F45E0F19478699F5AAE44A3EB34 /* FDFullscreenPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.xcconfig; sourceTree = "<group>"; };
+		5A74D108390D81A41DB8920A1AF8E10C /* libFDFullscreenPopGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFDFullscreenPopGesture.a; path = libFDFullscreenPopGesture.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6109697CAE68B23241A1D86411CED73D /* Pods-pop手势返回.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pop手势返回.debug.xcconfig"; sourceTree = "<group>"; };
+		7686ED92EE124AC8859D38C188C8D9E3 /* Pods-pop手势返回-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pop手势返回-resources.sh"; sourceTree = "<group>"; };
+		77B448EA30C5929CC40E9AE877C0DF96 /* WRNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WRNavigationBar-dummy.m"; sourceTree = "<group>"; };
+		89CBDED079369F975544151019DB369E /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
+		8CA512694288F232A73F7EDCFAA59AE3 /* WRCustomNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRCustomNavigationBar.h; path = WRNavigationBar/WRCustomNavigationBar.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAD586B8E2C3ECF594C98E7706CA35F6 /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRCustomNavigationBar.m; path = WRNavigationBar/WRCustomNavigationBar.m; sourceTree = "<group>"; };
+		B17CA101301019AD4D5BE178CF01488C /* Pods-pop手势返回-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pop手势返回-dummy.m"; sourceTree = "<group>"; };
+		B1D877FF08A4E75CB2498C5133B2A924 /* WRNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRNavigationBar.h; path = WRNavigationBar/WRNavigationBar.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CDBE5DE12136FE4D94A34D7E0ADE8A01 /* libWRNavigationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWRNavigationBar.a; path = libWRNavigationBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2178DB025421E69192193AAAB551EA /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
+		FC71A386CD8BCC7041688F3F0FCCDE16 /* libPods-pop手势返回.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-pop手势返回.a"; path = "libPods-pop手势返回.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0AB5FCEF2C16040B679DCA979F6FAA /* WRNavigationBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WRNavigationBar.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247281567415DCCACE08400A522B9FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69F0E89334A6B4E3AD38DD41FA37D9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC16DA88EC957C6C5852917E403CDE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9BE55203ACE9C9DEDBADDE4E774F7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD9BF864CC8515BD5862CD230830146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0C178DFD1B19A7EBFB0D9AB0082035 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D8B43D0772E21A74FB8E7443E5F923D /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				8CA512694288F232A73F7EDCFAA59AE3 /* WRCustomNavigationBar.h */,
+				AAD586B8E2C3ECF594C98E7706CA35F6 /* WRCustomNavigationBar.m */,
+				B1D877FF08A4E75CB2498C5133B2A924 /* WRNavigationBar.h */,
+				30B660B40895AE1E29869B2F9F814B52 /* WRNavigationBar.m */,
+				80012E3BE64514BEAEC2B76A8245F633 /* Support Files */,
+			);
+			name = WRNavigationBar;
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		38BE3F755003EC1F00AA806667C2B7D4 /* Pods-pop手势返回 */ = {
+			isa = PBXGroup;
+			children = (
+				1CF04104C131082A05FAE3ECFBF09619 /* Pods-pop手势返回-acknowledgements.markdown */,
+				515D0A2493DCD776F1A36216FFE9FF61 /* Pods-pop手势返回-acknowledgements.plist */,
+				B17CA101301019AD4D5BE178CF01488C /* Pods-pop手势返回-dummy.m */,
+				0F8247E59E1022D4C4CBC11B7AEAFE54 /* Pods-pop手势返回-frameworks.sh */,
+				7686ED92EE124AC8859D38C188C8D9E3 /* Pods-pop手势返回-resources.sh */,
+				6109697CAE68B23241A1D86411CED73D /* Pods-pop手势返回.debug.xcconfig */,
+				37A9EB7E8BA67FECC369F5BEBB40BE7E /* Pods-pop手势返回.release.xcconfig */,
+			);
+			name = "Pods-pop手势返回";
+			path = "Target Support Files/Pods-pop手势返回";
+			sourceTree = "<group>";
+		};
+		5AF0E2CD5A5703AB7376A4C7C4AFBCD7 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				2F3F5F6AE5A855A2DA0767B11FD6E84C /* UINavigationController+FDFullscreenPopGesture.h */,
+				406D4E0DB54643EE630C3C9546C2378B /* UINavigationController+FDFullscreenPopGesture.m */,
+				F06AFB6D661CEF3A6D2EAF768E68955A /* Support Files */,
+			);
+			name = FDFullscreenPopGesture;
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		5C726E1CA37F4730C60B9AA5C8DD6EEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A74D108390D81A41DB8920A1AF8E10C /* libFDFullscreenPopGesture.a */,
+				FC71A386CD8BCC7041688F3F0FCCDE16 /* libPods-pop手势返回.a */,
+				CDBE5DE12136FE4D94A34D7E0ADE8A01 /* libWRNavigationBar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8A2708C3A2EFFCB4517B9B2F593E3F88 /* Pods */,
+				5C726E1CA37F4730C60B9AA5C8DD6EEE /* Products */,
+				F342B3E613F76BB93C467B6D9649C570 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80012E3BE64514BEAEC2B76A8245F633 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE0AB5FCEF2C16040B679DCA979F6FAA /* WRNavigationBar.xcconfig */,
+				77B448EA30C5929CC40E9AE877C0DF96 /* WRNavigationBar-dummy.m */,
+				05655D7258AE4571BBF5DBA26E83ABED /* WRNavigationBar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WRNavigationBar";
+			sourceTree = "<group>";
+		};
+		8A2708C3A2EFFCB4517B9B2F593E3F88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AF0E2CD5A5703AB7376A4C7C4AFBCD7 /* FDFullscreenPopGesture */,
+				0D8B43D0772E21A74FB8E7443E5F923D /* WRNavigationBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F06AFB6D661CEF3A6D2EAF768E68955A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56E70F45E0F19478699F5AAE44A3EB34 /* FDFullscreenPopGesture.xcconfig */,
+				EF2178DB025421E69192193AAAB551EA /* FDFullscreenPopGesture-dummy.m */,
+				89CBDED079369F975544151019DB369E /* FDFullscreenPopGesture-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FDFullscreenPopGesture";
+			sourceTree = "<group>";
+		};
+		F342B3E613F76BB93C467B6D9649C570 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38BE3F755003EC1F00AA806667C2B7D4 /* Pods-pop手势返回 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18B07D1E9CB8781122E95DD1A049EE9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7EC602BED25C6B8DE9CFC473DDE2B8 /* WRCustomNavigationBar.h in Headers */,
+				E337FED42EC8030356730BF1A3EC6767 /* WRNavigationBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6528D49BBCDEB5E0F7B2BDF1992AD226 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FB4F117C9CE2928CE6FB66BAF784D9 /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79B7C6E8E872BC45A21CBEA4085D7A19 /* WRNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84E57D59F3836C886EE269B31E11CB8 /* Build configuration list for PBXNativeTarget "WRNavigationBar" */;
+			buildPhases = (
+				68A91124BD9672FF390C837D22432FD5 /* Sources */,
+				247281567415DCCACE08400A522B9FB3 /* Frameworks */,
+				18B07D1E9CB8781122E95DD1A049EE9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WRNavigationBar;
+			productName = WRNavigationBar;
+			productReference = CDBE5DE12136FE4D94A34D7E0ADE8A01 /* libWRNavigationBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7DCA9E3823553FE5A6D7D0F2E11A0E7 /* Pods-pop手势返回 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5927CCB5CB9F208B07E20AE5C23F9478 /* Build configuration list for PBXNativeTarget "Pods-pop手势返回" */;
+			buildPhases = (
+				6A9BF6B166ED61E3C04B4FDAE6E8075F /* Sources */,
+				EBD9BF864CC8515BD5862CD230830146 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3179983E39762D165EA682688EF97D82 /* PBXTargetDependency */,
+				5B0EA43C5A7E4226C7AA2C427BC44251 /* PBXTargetDependency */,
+			);
+			name = "Pods-pop手势返回";
+			productName = "Pods-pop手势返回";
+			productReference = FC71A386CD8BCC7041688F3F0FCCDE16 /* libPods-pop手势返回.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EE366E1E6962F82E6AEC8AE66FA66CBF /* FDFullscreenPopGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1375982388E24238B8AA563D203E6661 /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */;
+			buildPhases = (
+				62A0A24B70175AE9DB1F05D025D9DBD3 /* Sources */,
+				7EC16DA88EC957C6C5852917E403CDE7 /* Frameworks */,
+				6528D49BBCDEB5E0F7B2BDF1992AD226 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDFullscreenPopGesture;
+			productName = FDFullscreenPopGesture;
+			productReference = 5A74D108390D81A41DB8920A1AF8E10C /* libFDFullscreenPopGesture.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5C726E1CA37F4730C60B9AA5C8DD6EEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE366E1E6962F82E6AEC8AE66FA66CBF /* FDFullscreenPopGesture */,
+				E7DCA9E3823553FE5A6D7D0F2E11A0E7 /* Pods-pop手势返回 */,
+				79B7C6E8E872BC45A21CBEA4085D7A19 /* WRNavigationBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62A0A24B70175AE9DB1F05D025D9DBD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA2F5C9A1FF62120828492C2FB616B5 /* FDFullscreenPopGesture-dummy.m in Sources */,
+				51169FC775C7CBDE9A66E6F91CF9855B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68A91124BD9672FF390C837D22432FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D09B4CC4A105D9F2B42723FA16660D /* WRCustomNavigationBar.m in Sources */,
+				818C0DFDAD93EE5C930F11543A2EDAEE /* WRNavigationBar-dummy.m in Sources */,
+				52FC2BCDB406986B6308564D4DBD1202 /* WRNavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A9BF6B166ED61E3C04B4FDAE6E8075F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC2DE74A0DE52C8A7C1B753DFB24693 /* Pods-pop手势返回-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3179983E39762D165EA682688EF97D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			target = EE366E1E6962F82E6AEC8AE66FA66CBF /* FDFullscreenPopGesture */;
+			targetProxy = D493F324140B255FF475F1E6475151AF /* PBXContainerItemProxy */;
+		};
+		5B0EA43C5A7E4226C7AA2C427BC44251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WRNavigationBar;
+			target = 79B7C6E8E872BC45A21CBEA4085D7A19 /* WRNavigationBar */;
+			targetProxy = 24B84E80B1AAD07AB1C0FA2B06FD027D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DC146A006D6ABC237E99CECFF8C8FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6109697CAE68B23241A1D86411CED73D /* Pods-pop手势返回.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		12E1A8B026C5564AB0CC961E5B9C359D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		14AA7F1A36DD3211EA43E2611147A686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37A9EB7E8BA67FECC369F5BEBB40BE7E /* Pods-pop手势返回.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		673D3C4F839863B2E121F35C215D2C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE0AB5FCEF2C16040B679DCA979F6FAA /* WRNavigationBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WRNavigationBar/WRNavigationBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7FFA2AA969E5420A4A834F4A531CBF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E70F45E0F19478699F5AAE44A3EB34 /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D3A9D7E6435570048A0980A67D7415ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D904B6F017716CB3F07C84D0DBC6C359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE0AB5FCEF2C16040B679DCA979F6FAA /* WRNavigationBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WRNavigationBar/WRNavigationBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F47DC500E351A2E723B2E908857B3CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E70F45E0F19478699F5AAE44A3EB34 /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1375982388E24238B8AA563D203E6661 /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFA2AA969E5420A4A834F4A531CBF52 /* Debug */,
+				F47DC500E351A2E723B2E908857B3CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E1A8B026C5564AB0CC961E5B9C359D /* Debug */,
+				D3A9D7E6435570048A0980A67D7415ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5927CCB5CB9F208B07E20AE5C23F9478 /* Build configuration list for PBXNativeTarget "Pods-pop手势返回" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC146A006D6ABC237E99CECFF8C8FCF /* Debug */,
+				14AA7F1A36DD3211EA43E2611147A686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D84E57D59F3836C886EE269B31E11CB8 /* Build configuration list for PBXNativeTarget "WRNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673D3C4F839863B2E121F35C215D2C8E /* Debug */,
+				D904B6F017716CB3F07C84D0DBC6C359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

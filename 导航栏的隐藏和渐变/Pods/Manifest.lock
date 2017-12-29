@@ -1,0 +1,15 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - WRNavigationBar (1.0.9)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture (~> 1.1)
+  - WRNavigationBar (~> 1.0.9)
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  WRNavigationBar: 8e02b9701431fa1ed7ae72bd4370103f0b5e4b5d
+
+PODFILE CHECKSUM: 33629c912cd766e3d366127809d7eb3ab5b55ed8
+
+COCOAPODS: 1.2.0
